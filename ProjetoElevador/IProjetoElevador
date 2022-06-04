@@ -1,0 +1,21 @@
+Projeto Elevador;
+
+O mesmo possui como atributos a capacidade máxima e o número de andares do prédio;
+
+Os métodos solicitados pelo professor foram: Inicializar, Entrar, Sair, Subir e Descer.
+
+Sendo respectivamente:
+
+***Inicializar*** : deve receber como parâmetros a capacidade do elevador e o total de
+andares no prédio (os elevadores sempre começam no térreo e vazio);
+
+***Entrar*** : deve acrescentar uma pessoa no elevador (só deve acrescentar se ainda houver
+espaço);
+
+***Sair*** : deve remover uma pessoa do elevador (só deve remover se houver alguém
+dentro dele);
+
+***Subir*** : deve subir um andar (não deve subir se já estiver no último andar);
+
+***Descer*** : deve descer um andar (não deve descer se já estiver no térreo);
+
