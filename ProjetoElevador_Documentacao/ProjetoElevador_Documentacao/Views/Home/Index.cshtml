@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Projeto Elevador:";
+
+
+
+}
+
+<div class="text-center">
+    <h1 class="display-4"> Passo a passo sobre o projeto:
+
+    </h1>
+   <div><p>  O projeto tem por objetivo criar uma aplicação para gerenciamento de um elevador. 
+            De ínicio, criei a classe Elevador, na qual foram incrementados os atributos:
+            AndarAtual; TotalAndares; Capacidade; QtdePaxAtual e QtdPax.
+            <p> A seguir foram criados os métodos:            </p>
+            <p> Inicializar: Com função de saludar o usuário e passar as informações iniciais sobre o tipo de prédio (outrora setados nas atribuições);</p>
+            <p> MenuInicial: Possui opções de intereação com o usuário para executar as possíveis ações - Entrar (no elevador), Sair (do elevador) e 3 Finalizar o programa (sair da aplicação). </p>
+            <p> AndaresMenu: Nesse método tem-se a facilidade de apresentar ao usuários as opções de escolha que ele pode fazer uso do elevador.</p>
+            <p> SubirDescer: Nesse método, fiz a integraçaõ dos métodos SUBIR e DESCER (solicitados pelo professor), aqui o programa faz as comparações e checagens necessárias para executar tais funções, bem como solicita informações do usuário a fim de o mesmo não conseguir passar dados inconsistentes; </p>
+            <p> MenuNovaEscolha: um novo menu criado para gerar um loop com as opções do MenuInicial, a fim de que o usuário sempre tenha alguma opção a escolher e que a mesma seja a mais adequada a sua necessidade.</p>
+            <p> OpcaoSair: criado para apresentar ao usuário a informação de que ele ainda não entrou no elevador, pois o mesmo pulou passos anteriores, como entrar ou, se fosse o caso, finalizar a applicação.</p>
+            <p> Entrar: Checar se o elevador não estará vazio e ou se não excederá a capacidade do mesmo </p>
+            <p>Sair: nesse método verificamos se após a primeira execução da aplicação, o elevador ainda possui capacidade para entrar outras e também se há pessoas dentro do mesmo que por ventura saiam. </p>
+            <p> Finalizar: Método criado para caso o usuário queira finalizar a aplicação durante as fases de escolha de ações. </p>
+            <p> Na classe Program, foi dado a essa herança da classe Elevador, depois foi instanciado um novo objeto para receber os comandos e métodos a serem executados. </p>
+            <p> </p>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p></div>
+</div>
